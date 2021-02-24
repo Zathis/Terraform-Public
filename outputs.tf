@@ -7,5 +7,5 @@ output "network_security_group_id" {
 }
 
 output "network_interface_id" {
-  value = azurerm_network_interface.nsg.id
+  value = azurerm_subnet_network_security_group_association.spokesubnet.id
 }
